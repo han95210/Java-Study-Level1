@@ -24,7 +24,6 @@ public class LoopCalender {
 //            System.out.printf("%d월은 %d일까지 있습니다.\n", i+1, MaxDays[i]);
 //            i++;
 //        }
-
         input.close();
     }
 }
