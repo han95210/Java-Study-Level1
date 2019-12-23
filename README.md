@@ -13,3 +13,6 @@
 ### Intelli J
 * 인프런 IntelliJ를 시작하시는 분들을 위한 IntelliJ 가이드 수강
 * 각종 사이트 참고
+
+### Git
+* sourcetree, IntelliJ, GIT 수월하게 사용하기 위해 공부 
