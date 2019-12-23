@@ -37,20 +37,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
-  <component name="RunManager" selected="Application.PrintlnPrint">
-    <configuration name="GugudanFinal1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.han95210.java.playground.gugudan.GugudanFinal1" />
-      <module name="JavaPlayground.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.han95210.java.playground.gugudan.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Sum">
     <configuration name="GugudanFinal2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.han95210.java.playground.gugudan.GugudanFinal2" />
       <module name="JavaPlayground.main" />
@@ -64,12 +51,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GugudanMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.han95210.java.playground.gugudan.GugudanMain" />
+    <configuration name="InputSumPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.han95210.java.playground.calendar.InputSumPrint" />
       <module name="JavaPlayground.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.han95210.java.playground.gugudan.*" />
+          <option name="PATTERN" value="com.han95210.java.playground.calendar.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,6 +66,19 @@
     </configuration>
     <configuration name="PrintlnPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.han95210.java.playground.calendar.PrintlnPrint" />
+      <module name="JavaPlayground.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.han95210.java.playground.calendar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.han95210.java.playground.calendar.Sum" />
       <module name="JavaPlayground.main" />
       <extension name="coverage">
         <pattern>
@@ -105,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sum" />
+        <item itemvalue="Application.InputSumPrint" />
         <item itemvalue="Application.PrintlnPrint" />
         <item itemvalue="Application.example" />
         <item itemvalue="Application.GugudanFinal2" />
-        <item itemvalue="Application.GugudanFinal1" />
-        <item itemvalue="Application.GugudanMain" />
       </list>
     </recent_temporary>
   </component>
@@ -151,26 +151,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1576763874915" />
-    <state width="724" height="269" key="GridCell.Tab.0.bottom" timestamp="1577094535511">
+    <state width="723" height="269" key="GridCell.Tab.0.bottom" timestamp="1577100741914">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1233" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1576852857200" />
-    <state width="724" height="269" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577094535511" />
-    <state width="724" height="269" key="GridCell.Tab.0.center" timestamp="1577094535511">
+    <state width="723" height="269" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577100741914" />
+    <state width="723" height="269" key="GridCell.Tab.0.center" timestamp="1577100741913">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1233" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1576852857200" />
-    <state width="724" height="269" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577094535511" />
-    <state width="724" height="269" key="GridCell.Tab.0.left" timestamp="1577094535510">
+    <state width="723" height="269" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577100741913" />
+    <state width="723" height="269" key="GridCell.Tab.0.left" timestamp="1577100741913">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1233" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1576852857200" />
-    <state width="724" height="269" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577094535510" />
-    <state width="724" height="269" key="GridCell.Tab.0.right" timestamp="1577094535511">
+    <state width="723" height="269" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577100741913" />
+    <state width="723" height="269" key="GridCell.Tab.0.right" timestamp="1577100741914">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1233" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1576852857200" />
-    <state width="724" height="269" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577094535511" />
+    <state width="723" height="269" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577100741914" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1576852857195">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
