@@ -9,6 +9,7 @@ public class PrintlnPrint {
     public int maxDaysOfMonth(int month) {
         return MAX_DAYS[month - 1];
     }
+
     public void printSampleCalender() {
         System.out.println("일  월 화  수 목  금 토");
         System.out.println("--------------------");
