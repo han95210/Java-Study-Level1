@@ -11,19 +11,27 @@ public class LoopCalender {
     }
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        LoopCalender lp = new LoopCalender();
-        System.out.println("몇 월까지 출력할까요?");
-        int num = input.nextInt();
+        LoopCalender lc = new LoopCalender();
+        Scanner scan = new Scanner(System.in);
+        System.out.println("몇 번 반복할까요?");
+        int repeat = scan.nextInt();
 
-        for(int i = 0; i < num; i++) {
-            System.out.printf("%d월은 %d일까지 있습니다.\n", i+1, lp.MaxDaysOfMonth(i));
+        String prompt = "cal> ";
+
+        for (int i = 0; i < repeat; i++) {
+            System.out.print("몇 월을 출력할까요?\n" + prompt);
+
+            int num = scan.nextInt();
+            if (num == -1) {
+                System.out.println("프로그램을 종료합니다.");
+                break;
+            } else if (num > 12 || num < 1) {
+                System.out.println("다시 입력해주세요");
+                i--;
+                continue;
+            }
+            System.out.printf("%d월은 %d일까지 있습니다.\n", num, lc.MaxDaysOfMonth(num - 1));
         }
-//        int i = 0;
-//        while(i < num) {
-//            System.out.printf("%d월은 %d일까지 있습니다.\n", i+1, MaxDays[i]);
-//            i++;
-//        }
-        input.close();
+        scan.close();
     }
 }
