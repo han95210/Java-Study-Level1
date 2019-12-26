@@ -13,9 +13,17 @@ public class Prompt {
         Calendar cal = new Calendar();
 
         int month = 1;
+        int year = -1;
+
         while (true) {
+            System.out.println("연도를 입력하세요.");
+            System.out.println("YEAR> ");
+            year = scanner.nextInt();
+            if (year == -1) {
+                break;
+            }
             System.out.println("달을 입력하세요.");
-            System.out.println(PROMPT);
+            System.out.println("MONTH> ");
             month = scanner.nextInt();
             if (month == -1) {
                 break;
@@ -25,7 +33,7 @@ public class Prompt {
                 continue;
             }
 
-            cal.printCalender(2019, month);
+            cal.printCalender(year, month);
         }
 
         System.out.println("Bye~");
