@@ -14,6 +14,7 @@ public class Prompt {
 
         int month = 1;
         int year = -1;
+        String day = "";
 
         while (true) {
             System.out.println("연도를 입력하세요.");
@@ -29,11 +30,15 @@ public class Prompt {
                 break;
             }
 
+            System.out.println("첫번째 요일을 입력하세요. (SU, MO, WE, TH, FR, SA");
+            System.out.println("WEEKDAY> ");
+            day = scanner.next();
+
             if (month > 12) {
                 continue;
             }
 
-            cal.printCalender(year, month);
+            cal.printCalender(year, month, day);
         }
 
         System.out.println("Bye~");
